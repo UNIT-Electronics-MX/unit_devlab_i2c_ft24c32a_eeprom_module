@@ -1,31 +1,66 @@
 # Hardware
 
 <div align="center">
-<a href="#"><img src="resources/Schematics_icon.jpg?raw=false" width="500px"><br/>Schematics</a>
+<a href="{{schematic_url}}"><img src="{{schematic_icon}}" width="200px"><br/>Schematic</a>
 </div>
-
----
-
-
-## ⚙️ Technical Specifications
-
-- 
-
 
 ## 🔌 Pinout
 
-Include a diagram like `docs/pinout.png` or describe functionally:
-
 <div align="center">
+    <a href="#"><img src="{{pinout_image}}" width="500px"><br/>Pinout</a>
+    <br/>
+    <br/>
+    <br/>
+    
 
-| Pin Label | Function | Notes       |
-|-----------|----------|-------------|
-| D0–D13   | GPIO     | Digital I/O |
+| Pin Label | Function    | Notes                             |
+|-----------|-------------|-----------------------------------|
+| VCC       | Power Supply| 3.3V or 5V                       |
+| GND       | Ground      | Common ground for all components  |
 
 </div>
 
+## 📏 Dimensions
 
-## References
+<div align="center">
+<a href="{{dimensions_image}}"><img src="{{dimensions_image}}" width="500px"><br/> Dimensions</a>
+</div>
 
-- [Datasheet](https://www.vishay.com/docs/84374/temt
+## 📃 Topology
 
+<div align="center">
+<a href="{{topology_image}}"><img src="{{topology_image}}" width="450px"><br/> Topology</a>
+<br/>
+<br/>
+
+| Ref. | Description                              |
+|------|------------------------------------------|
+| IC1  | {{sensor_description}}                   |
+| L1   | Power On LED                             |
+| U1   | {{regulator_description}}                | 
+| JP1  | 2.54 mm Castellated Holes                |
+| J1   | QWIIC Connector (JST 1 mm pitch) for I2C |
+
+</div>
+
+## Pin & Connector Layout
+| Pin   | Voltage Level | Function                                                  |
+|-------|---------------|-----------------------------------------------------------|
+| VCC   | 3.3 V – 5.5 V | Provides power to the on-board regulator and sensor core. |
+| GND   | 0 V           | Common reference for power and signals.                   |
+| SDA   | 1.8 V to VCC  | Serial data line for I²C communications.                  |
+| SCL   | 1.8 V to VCC  | Serial clock line for I²C communications.                 |
+
+> **Note:** The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.
+
+## Functional Description
+
+{{functional_description}}
+
+## Applications
+
+{{applications_list}}
+
+# References
+
+- [{{datasheet_name}}]({{datasheet_url}})
