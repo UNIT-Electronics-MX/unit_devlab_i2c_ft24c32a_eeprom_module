@@ -2,7 +2,7 @@
 <!-- # ft24c32a_eeprom_module -->
 # FT24C32A EEPROM Module
 
-# Introduction
+## Introduction
 
 EEPROM module based on the FT24C32A chip, providing 32Kbits of non-volatile memory storage via I2C interface. Ideal for applications requiring reliable data retention and easy integration with microcontrollers.
 
