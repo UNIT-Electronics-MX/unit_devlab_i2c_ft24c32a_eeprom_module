@@ -1,5 +1,6 @@
 
-# Development Board Template
+<!-- # ft24c32a_eeprom_module -->
+# FT24C32A EEPROM Module
 
 
 <div align="center">
@@ -15,22 +16,23 @@
   <p><em>[Replace with board name or logo]</em></p>
 </div>
 
+EEPROM module based on the FT24C32A chip, providing 32Kbits of non-volatile memory storage via I2C interface. Ideal for applications requiring reliable data retention and easy integration with microcontrollers.
 
-A generic and modular development board based on the [Microcontroller Name], designed for rapid prototyping, embedded systems education, IoT experimentation, and wearable devices. This board combines flexible power options, modern connectivity, and accessible interfaces to accelerate your hardware development.
 
 ## 📦 Overview
 
 | Feature                 | Description                                                   |
 |------------------------|---------------------------------------------------------------|
-| Microcontroller         | [Insert name and variant]                                     |
+| Integrated Chip         | FT24C32A 32Kbit I2C EEPROM                                    |
+| Interface               | I2C (2-wire)                                                  |
+| Operating Voltage       | 1.8V to 5.5V                                                  |
+| Communication Speed    | Up to 400 kHz                                                |
 
 ## 🧪 Use Cases
 
-- IoT Sensor Nodes
-- Wearable Devices
-- Environmental Monitoring
-- Educational Electronics
-- Automation Prototyping
+- Data logging and storage
+- Configuration storage
+- Non-volatile memory for microcontroller projects
 
 ## 🚀 Getting Started
 
@@ -40,7 +42,6 @@ A generic and modular development board based on the [Microcontroller Name], des
    - PlatformIO
    - ESP-IDF / Pico SDK
 3. **Flash** a sample project or use one from `/software/examples`
-4. **Power** via USB or external battery (if supported)
 
 
 ## 📚 Resources
