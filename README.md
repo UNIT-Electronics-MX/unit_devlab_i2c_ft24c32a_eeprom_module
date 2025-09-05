@@ -32,10 +32,10 @@ EEPROM module based on the FT24C32A chip, providing 32Kbits of non-volatile memo
 
 ## Key Features
 
-- **Integrated Chip:** FT24C32A 32Kbit I2C EEPROM
-- **Interface:** I2C (2-wire)
-- **Operating Voltage:** 1.8V to 5.5V
-- **Communication Speed:** Up to 400 kHz
+- Integrated Chip: FT24C32A 32Kbit I2C EEPROM
+- Interface: I2C (2-wire)
+- Operating Voltage: 1.8V to 5.5V
+- Communication Speed: Up to 400 kHz
 
 ## Applications
 
@@ -47,12 +47,12 @@ EEPROM module based on the FT24C32A chip, providing 32Kbits of non-volatile memo
 
 ## 🚀 Getting Started
 
-1. **Connect** the board via USB-C to your computer.
-2. **Install** the appropriate board package for:
+1. Connect the board via USB-C to your computer.
+2. Install the appropriate board package for:
    - Arduino IDE
    - PlatformIO
    - ESP-IDF / Pico SDK
-3. **Flash** a sampgit add README.md
+3. Flash a sampgit add README.md
 git commit -m "update: README modifications"le project or use one from `/software/examples`
 
 
@@ -68,7 +68,7 @@ git commit -m "update: README modifications"le project or use one from `/softwar
 
 ## 📝 License
 
-All hardware and documentation in this project are licensed under the **MIT License**.  
+All hardware and documentation in this project are licensed under the MIT License.  
 Please refer to [`LICENSE.md`](LICENSE.md) for full terms.
 
 
