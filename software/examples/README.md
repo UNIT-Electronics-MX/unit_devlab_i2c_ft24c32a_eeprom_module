@@ -65,7 +65,7 @@ cpp
 
 Monitor I2C-EEPROM listo. Escribe 'scan' para detectar la EEPROM.
 scan
-
+```
 [I2C] Escaneando...
   - Dispositivo en 0x50  (EEPROM candidata)
 Usando EEPROM en 0x50
@@ -79,7 +79,7 @@ HEX:
 72 6F 6E 69 63 73 21 
 
 ASCII: Hello UNIT Electronics!
-
+```
 
 ## EEPROM Specifications
 
