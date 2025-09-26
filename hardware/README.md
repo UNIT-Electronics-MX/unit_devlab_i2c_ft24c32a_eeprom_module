@@ -1,7 +1,7 @@
 # Hardware
 
 <div align="center">
-<a href="{{schematic_url}}"><img src="{{schematic_icon}}" width="200px"><br/>Schematic</a>
+<a href="./unit_sch_v_1_0_0_ue0110_ft24c32a_eeprom_module.pdf"><img src="./resources/Schematics_icon.jpg" width="200px"><br/>Schematic</a>
 </div>
 
 ## 🔌 Pinout
@@ -23,24 +23,24 @@
 ## 📏 Dimensions
 
 <div align="center">
-<a href="{{dimensions_image}}"><img src="{{dimensions_image}}" width="500px"><br/> Dimensions</a>
+<a href="./resources/unit_dimension_v_1_0_0_ue0110_ft24c32a_eeprom_module.png"><img src="./resources/unit_dimension_v_1_0_0_ue0110_ft24c32a_eeprom_module.png" width="500px"><br/> Dimensions</a>
 </div>
 
 ## 📃 Topology
 
 <div align="center">
-<a href="{{topology_image}}"><img src="{{topology_image}}" width="450px"><br/> Topology</a>
+<a href="./resources/unit_topology_v_1_0_0_ue0110_ft24c32a_eeprom_module.png"><img src="./resources/unit_topology_v_1_0_0_ue0110_ft24c32a_eeprom_module.png" width="450px"><br/> Topology</a>
 <br/>
 <br/>
 
 | Ref. | Description                              |
 |------|------------------------------------------|
-| IC1  | {{sensor_description}}                   |
+| IC1  | FT24C32A EEPROM                          |
 | L1   | Power On LED                             |
-| U1   | {{regulator_description}}                | 
+| SW1  | Dip Switch for Configuration             | 
 | JP1  | 2.54 mm Castellated Holes                |
 | J1   | QWIIC Connector (JST 1 mm pitch) for I2C |
-
+| J2   | QWIIC Connector (JST 1 mm pitch) for I2C |
 </div>
 
 ## Pin & Connector Layout

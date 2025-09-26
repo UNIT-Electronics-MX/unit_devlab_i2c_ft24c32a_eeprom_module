@@ -15,8 +15,8 @@ EEPROM module based on the FT24C32A chip, providing 32Kbits of non-volatile memo
 </div>
 
 <div align="center">
-  <img src="hardware/resources/board_image.png" width="450px" alt="Development Board">
-  <p><em>[Replace with board name or logo]</em></p>
+  <img src="./hardware/resources/unit_top_v_1_0_0_ue0110_ft24c32a_eeprom_module.png" width="450px" alt="Development Board">
+  <p><em>FT24C32A EEPROM Module</em></p>
 </div>
 
 
