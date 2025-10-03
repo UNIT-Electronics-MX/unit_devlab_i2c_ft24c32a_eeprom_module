@@ -4,7 +4,7 @@
 <a href="./unit_sch_v_1_0_0_ue0110_ft24c32a_eeprom_module.pdf"><img src="./resources/Schematics_icon.jpg" width="200px"><br/>Schematic</a>
 </div>
 
-## 🔌 Pinout
+## Pinout
 
 <div align="center">
     <a href="#"><img src="{{pinout_image}}" width="500px"><br/>Pinout</a>
@@ -20,13 +20,13 @@
 
 </div>
 
-## 📏 Dimensions
+## Dimensions
 
 <div align="center">
 <a href="./resources/unit_dimension_v_1_0_0_ue0110_ft24c32a_eeprom_module.png"><img src="./resources/unit_dimension_v_1_0_0_ue0110_ft24c32a_eeprom_module.png" width="500px"><br/> Dimensions</a>
 </div>
 
-## 📃 Topology
+## Topology
 
 <div align="center">
 <a href="./resources/unit_topology_v_1_0_0_ue0110_ft24c32a_eeprom_module.png"><img src="./resources/unit_topology_v_1_0_0_ue0110_ft24c32a_eeprom_module.png" width="450px"><br/> Topology</a>
