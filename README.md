@@ -19,6 +19,7 @@ EEPROM module based on the FT24C32A chip, providing 32Kbits of non-volatile memo
   <p><em>FT24C32A EEPROM Module</em></p>
 </div>
 
+<div align="center">
 
 ### Quick Setup
 
