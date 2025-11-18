@@ -179,20 +179,41 @@
 <div align="center">
 <div align="center"><a href="../resources/unit_sch_v_1_0_0_ue0110_ft24c32a_eeprom_module.pdf"><img src="../resources/Schematics_icon.jpg" style="max-width: 500px; height: auto;" alt="Schematic"><br/> Schematic</a></div>
 </div>
+<h2 id="technical-specifications"><a class="header" href="#technical-specifications">Technical Specifications</a></h2>
+<h3 id="electrical-characteristics"><a class="header" href="#electrical-characteristics">Electrical Characteristics</a></h3>
+<div align="center">
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>Parameter</strong></th><th style="text-align: center"><strong>Description</strong></th><th style="text-align: center"><strong>Min</strong></th><th style="text-align: center"><strong>Typ</strong></th><th style="text-align: center"><strong>Max</strong></th><th style="text-align: center"><strong>Unit</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">Vdd</td><td style="text-align: center">Input voltage to power on the module</td><td style="text-align: center">1.8</td><td style="text-align: center">-</td><td style="text-align: center">5.5</td><td style="text-align: center">V</td></tr>
+<tr><td style="text-align: center">Icc</td><td style="text-align: center">Supply read current</td><td style="text-align: center">-</td><td style="text-align: center">0.4</td><td style="text-align: center">1.0</td><td style="text-align: center">mA</td></tr>
+<tr><td style="text-align: center">Icc</td><td style="text-align: center">Supply write current</td><td style="text-align: center">-</td><td style="text-align: center">2</td><td style="text-align: center">3.0</td><td style="text-align: center">mA</td></tr>
+<tr><td style="text-align: center">Isb1</td><td style="text-align: center">Supply current</td><td style="text-align: center">0.02</td><td style="text-align: center">-</td><td style="text-align: center">1</td><td style="text-align: center">uA</td></tr>
+<tr><td style="text-align: center">Iil</td><td style="text-align: center">Input Leakage Current</td><td style="text-align: center">-</td><td style="text-align: center">-</td><td style="text-align: center">3.0</td><td style="text-align: center">uA</td></tr>
+<tr><td style="text-align: center">Ilo</td><td style="text-align: center">Output Leakage Current</td><td style="text-align: center">-</td><td style="text-align: center">-</td><td style="text-align: center">3.0</td><td style="text-align: center">uA</td></tr>
+<tr><td style="text-align: center">Vih</td><td style="text-align: center">Input High voltage</td><td style="text-align: center">0.7xVdd</td><td style="text-align: center">-</td><td style="text-align: center">Vdd+0.5</td><td style="text-align: center">V</td></tr>
+<tr><td style="text-align: center">Vil</td><td style="text-align: center">Input Low voltage</td><td style="text-align: center">-0.6</td><td style="text-align: center">-</td><td style="text-align: center">0.3xVdd</td><td style="text-align: center">V</td></tr>
+<tr><td style="text-align: center">Vol</td><td style="text-align: center">Output Low voltage for Vdd=3.0V</td><td style="text-align: center">-</td><td style="text-align: center">-</td><td style="text-align: center">0.4V</td><td style="text-align: center">V</td></tr>
+<tr><td style="text-align: center">NVc</td><td style="text-align: center">Endurance</td><td style="text-align: center">-</td><td style="text-align: center">-</td><td style="text-align: center">1,000,000</td><td style="text-align: center">Write Cycles</td></tr>
+</tbody></table>
+</div></div>
 <h2 id="pinout"><a class="header" href="#pinout">Pinout</a></h2>
 <div align="center">
     <div align="center"><a href="#"><img src="{{pinout_image}}" style="max-width: 500px; height: auto;" alt="Pinout"><br/> Pinout</a></div>
     <br/>
     <br/>
     <br/>
-<div class="table-wrapper"><table><thead><tr><th>Pin Label</th><th>Function</th><th>Notes</th></tr></thead><tbody>
-<tr><td>VCC</td><td>Power Supply</td><td>3.3V or 5V</td></tr>
-<tr><td>GND</td><td>Ground</td><td>Common ground for all components</td></tr>
-</tbody></table>
-</div></div>
-<h2 id="dimensions"><a class="header" href="#dimensions">Dimensions</a></h2>
+</div>
+<h2 id="pin--connector-layout"><a class="header" href="#pin--connector-layout">Pin &amp; Connector Layout</a></h2>
 <div align="center">
-<div align="center"><a href="../resources/unit_dimension_v_1_0_0_ue0110_ft24c32a_eeprom_module.png"><img src="../resources/unit_dimension_v_1_0_0_ue0110_ft24c32a_eeprom_module.png" style="max-width: 500px; height: auto;" alt="Dimensions"><br/> Dimensions</a></div>
+<div class="table-wrapper"><table><thead><tr><th>Pin</th><th>Voltage Level</th><th>Function</th></tr></thead><tbody>
+<tr><td>VCC</td><td>3.3 V – 5.5 V</td><td>Provides power to the on-board regulator and sensor core.</td></tr>
+<tr><td>GND</td><td>0 V</td><td>Common reference for power and signals.</td></tr>
+<tr><td>SDA</td><td>1.8 V to VCC</td><td>Serial data line for I²C communications.</td></tr>
+<tr><td>SCL</td><td>1.8 V to VCC</td><td>Serial clock line for I²C communications.</td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p><strong>Note:</strong> The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.</p>
+</blockquote>
 </div>
 <h2 id="topology"><a class="header" href="#topology">Topology</a></h2>
 <div align="center">
@@ -208,24 +229,13 @@
 <tr><td>J2</td><td>QWIIC Connector (JST 1 mm pitch) for I2C</td></tr>
 </tbody></table>
 </div></div>
-<h2 id="pin--connector-layout"><a class="header" href="#pin--connector-layout">Pin &amp; Connector Layout</a></h2>
-<div class="table-wrapper"><table><thead><tr><th>Pin</th><th>Voltage Level</th><th>Function</th></tr></thead><tbody>
-<tr><td>VCC</td><td>3.3 V – 5.5 V</td><td>Provides power to the on-board regulator and sensor core.</td></tr>
-<tr><td>GND</td><td>0 V</td><td>Common reference for power and signals.</td></tr>
-<tr><td>SDA</td><td>1.8 V to VCC</td><td>Serial data line for I²C communications.</td></tr>
-<tr><td>SCL</td><td>1.8 V to VCC</td><td>Serial clock line for I²C communications.</td></tr>
-</tbody></table>
+<h2 id="dimensions"><a class="header" href="#dimensions">Dimensions</a></h2>
+<div align="center">
+<div align="center"><a href="../resources/unit_dimension_v_1_0_0_ue0110_ft24c32a_eeprom_module.png"><img src="../resources/unit_dimension_v_1_0_0_ue0110_ft24c32a_eeprom_module.png" style="max-width: 500px; height: auto;" alt="Dimensions"><br/> Dimensions</a></div>
 </div>
-<blockquote>
-<p><strong>Note:</strong> The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.</p>
-</blockquote>
-<h2 id="functional-description"><a class="header" href="#functional-description">Functional Description</a></h2>
-<p>{{functional_description}}</p>
-<h2 id="applications"><a class="header" href="#applications">Applications</a></h2>
-<p>{{applications_list}}</p>
 <h1 id="references"><a class="header" href="#references">References</a></h1>
 <ul>
-<li><a href="%7B%7Bdatasheet_url%7D%7D">{{datasheet_name}}</a></li>
+<li><a href="../resources/unit_datasheet_v_1_0_0_ue0110_ft24c32a_eeprom.pdf">FT24C32A Datasheet</a></li>
 </ul>
 
                     </main>
@@ -236,7 +246,7 @@
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../hardware/pinout.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../hardware/technical-specifications.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -250,7 +260,7 @@
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../hardware/pinout.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../hardware/technical-specifications.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
