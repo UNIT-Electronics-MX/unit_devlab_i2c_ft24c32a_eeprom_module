@@ -50,6 +50,18 @@ EEPROM module based on the FT24C32A chip, providing 32Kbits of non-volatile memo
 
 </div>
 
+I2C address: 
+- 0x50
+- 0x51
+- 0x52
+- 0x53
+- 0x54
+- 0x55
+- 0x56
+- 0x57
+ 
+Note: The address is configurable via a DIP switch.
+
 ## Applications
 - Data logging
 - Configuration storage
