@@ -27,10 +27,10 @@
 ## Pinout
 
 <div align="center">
-  <a href=\unit_pinout_v_1_0_0_ue0110_ft24c32a_eeprom_module_en.pdf">
-    <img src=".\resources\unit_pinout_v_1_0_0_ue0110_ft24c32a_eeprom_module_en_2026-04-27_page_1.png" width="500px"><br/>
-    Pinout
-  </a>
+    <a href="./unit_pinout_v_1_0_0_ue0110_ft24c32a_eeprom_module_en.pdf"><img src="resources\unit_pinout_v_1_0_0_ue0110_ft24c32a_eeprom_module_en_2026-04-27_page_1.png" width="500px"><br/>Pinout</a>
+    <br/>
+    <br/>
+    <br/>
 </div>
 
 ## Pin & Connector Layout
